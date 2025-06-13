@@ -1,0 +1,48 @@
+
+body {
+  background: #CC0000;
+  padding: 10px;
+  text-align: center;
+}
+
+
+h2 {
+  font-size: 2.5em;
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.darecek {
+  background: white;
+  width: 60%;
+  max-width: 500px;
+  aspect-ratio: 1 / 1;
+  margin: 0 auto;
+  border-radius: 50%;
+  padding: 40px;
+}
+
+img {
+  width: 100%;
+  animation: spin 4s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+     transform: rotate(360deg);
+
+  }
+}
+
+p {
+  margin-top: 2rem;
+}
