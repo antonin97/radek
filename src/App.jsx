@@ -79,7 +79,7 @@ function App() {
             <h2>{timeLeft}</h2>
 
             <div className="darecek">
-                <img src="./db.png" alt="db" />
+                <img src="./public/db.png" alt="db" />
             </div>
 
             {popups.map((p) => (
